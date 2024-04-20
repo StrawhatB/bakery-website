@@ -1,0 +1,58 @@
+body{
+    box-sizing: content-box;
+    margin-top: 0px;
+    margin: 0;
+    padding: 0%;
+    background-color: whitesmoke;
+    overflow: scroll;
+}
+.heading{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f1eeea;
+ }
+
+ nav ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+ }
+ nav ul li{
+    display: inline;
+    margin-right: 20px;
+ }
+ nav ul li a{
+    color: #705531;
+    text-decoration: none;
+ }
+ nav a:hover {
+    color: #cd10d3;
+  }
+.frontpage{
+  overflow: hidden;
+}
+.container{
+    display: grid;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px;
+	grid-template-columns: 100px 100px 100px 100px 100px 100px;
+	gap: 10px;
+    margin-top: 10px;
+    background-color: rgb(247, 247, 239);
+    
+}
+.career{
+    grid-template-columns: 1/6;
+    grid-template-rows: 1/5;
+
+}
+.photo{
+    grid-template-columns: 5/6;
+    grid-template-rows: ;
+}
+.foot{
+    grid-area: 6 / 1 / 7 / 7;
+}
